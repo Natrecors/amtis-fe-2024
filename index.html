@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="bg">
     <head>
         <meta charset="UTF-8" />
@@ -17,7 +17,7 @@
         <link rel="preload" href="/fonts/Manrope/Manrope-Bold.woff2" as="font" type="font/woff2" crossorigin />
 
         <link rel="preload" href="/fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin />
-
+        <link rel="stylesheet" href="./src/sass/app.scss" />
         <style type="text/css">
             @font-face {
                 font-family: 'Manrope';
@@ -89,14 +89,238 @@
             }
         </style>
 
-        <link rel="stylesheet" href="/src/sass/app.scss" />
+
     </head>
 
     <body>
-        <div id="app">
-            Започни работа тук. Успех! :)
-        </div>
+        <header class="wraper">
+            <div class="container">
+                <picture> <img src="./src/img/logo.png" alt="logo1"></picture>             
+                <div class="logo">
+                    <picture> <img src="./src/img/logo2.png" alt="logo1"></picture>
+                </div>
 
-        <script type="module" src="/src/js/main.js"></script>
-    </body>
+                <nav>
+                    <ul>
+                        <li><a href="#">Нашите десерти</a></li>
+                        <li><a href="#">Отзиви</a></li>
+                        <li><a href="#">За поръчки и запитвания</a></li>
+                        <li><a href="#">Препоръки</a></li>
+                        <li><a href="#">Медиите за нас</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </nav>
+            </div>               
+        </header>
+        <div class="main-content">
+            <main>
+                <section class="Kristallino-Header">
+                    <h1>Десерти Kristallino – където изкуството среща десерта.</h1>
+                    <p>Отдайте се на нашите изящни творения, изработени със страст и прецизност от световноизвестния сладкар Кристалин Илиев. Разгледайте нашите иновативни десерти, които обещават да изямат вкусовете ви рецептори и да запалят сетивата ви.</p>
+                    <div class="button-group">
+                        <button>Направи заявка</button>
+                        <button>Научи повече</button>
+                    </div>
+                </section>
+                <section class="desserts">
+                    <div class="desserts">
+                        <div class="dessert-item">
+                            <img src="./src/img/strawberry-and-basil.png" alt="Ягоди и босилек">
+                            <hr>
+                            <h3>Ягоди и босилек</h3>
+
+                            <p>Отраждайте същността на лятото със свежи ягоди, съчетаващи се с ароматен босилек, освежаващо удоволствие за небцето.</p>
+                            <button>Научете повече</button>
+                        </div>
+                        <div class="dessert-item">
+                            <img src="./src/img/walnuts-and-honey.png" alt="Кисело мляко, орехи и мед">
+                            <hr>
+                            <h3>Кисело мляко, орехи и мед</h3>
+                            <p>Насладете се на перфектен баланс между кремообразно кисело мляко, хрупкави орехи и сладък мед в този хармоничен десерт.</p>
+                            <button>Научете повече</button>
+                        </div>
+                        <div class="dessert-item">
+                            <img src="./src/img/bacon-and-blueberry.png" alt="Бекон и боровинки">
+                            <hr>
+                            <h3>Бекон и боровинки</h3>
+                            <p>Впуснете се в кулинарно приключение с уникалната комбинация от солен бекон и сладки боровинки, която ще прикове вниманието на сетивата ви.</p>
+                            <button>Научете повече</button>
+                        </div>
+                        <div class="dessert-item">
+                            <img src="./src/img/crispy-sunflower-seed-with-cream.png" alt="Слънчогледови семки">
+                            <hr>
+                            <h3>Слънчогледови семки</h3>
+                            <p>Насладете се на неочакваната комбинация от хрупкави слънчогледови семки и лека крема, която ще ви накара да искате още.</p>
+                            <button>Научете повече</button>
+                        </div>
+                    </div>
+                </section>
+        </div>
+            <section class="chef">
+                <img src="./src/img/chefK.png" alt="Chef Kristallino">
+                <div class="chef-content">
+                    <h2>Chef Кристалин</h2>
+                    <hr>
+                    <p>Шеф Кристалин Илиев е световноизвестен сладкар, известен със своите иновативни и артистични творения на десерти. С повече от две десетилетия опит, той съчетава традиционни техники с модерни вкусове, завладявайки кулинарния свят чрез своята марка Krystallino. Уникалните десерти на шеф Кристалин, като кисело мляко с орехи и мед или бекон с боровинки, отразяват неговата отдаденост на качеството и креативността, спечелвайки й международно признание и лоялни последователи.</p>
+                </div>
+        
+            </section>
+
+            <section class="wraper" id="desserts2">
+                <div class="desserts-container">
+                    <div class="desserts-head">
+                        <h1>Десерти</h1>
+                        <hr>
+                        <p class="subheader">Внимателно селектирани вкусове</p>
+                    </div>
+                    <div class="desserts-container-content">
+                        <div class="desserts-container-image">
+                            <img src="./src/img/strawberry-and-basil.png" alt="Ягоди и босилек">
+                        </div>
+                        <div class="desserts-text">
+                            <h2>Ягоди и босилек</h2>
+                            <p>Възхитителен сезонен десерт с узрели ягоди, съчетани с пресен босилек, създавайки освежаваща и ароматна вкусова комбинация, която въплъщава есенцията на лятото.</p>
+                            <p><b>Основни съставки:</b> кисело мляко, орехи, мед, захар, желатин (за консистенция), ванилов екстракт.</p>
+                        </div>
+                        <div class="nutri-stat">
+                            <picture><img src="./src/img/stats.png"></img></picture>
+                        </div>
+                    </div>
+                    <div class="desserts-container-content">
+                        <div class="desserts-container-image">
+                            <img src="./src/img/bacon-and-blueberry.png" alt="Бекон и боровинки">
+                        </div>
+                        <div class="desserts-text">
+                            <h2>Бекон и боровинки</h2>
+                            <p>Кремообразен десерт на основата на кисело мляко, наситен със земното богатство на орехи и сладостта на меда, създавайки хармонична комбинация от вкусове и текстури.</p>
+                            <p><b>Основни съставки:</b> кисело мляко, орехи, мед, захар, желатин (за консистенция), ванилов екстракт.</p>
+                        </div>
+                        <div class="nutri-stat">
+                            <picture><img src="./src/img/stats.png"></img></picture>
+                        </div>
+                    </div>
+                    <div class="desserts-container-content">
+                        <div class="desserts-container-image">
+                            <img src="./src/img/walnuts-and-honey.png" alt="Кисело мляко, орехи и мед">
+                        </div>
+                        <div class="desserts-text">
+                            <h2>Кисело мляко, орехи и мед</h2>
+                            <p>Кремообразен десерт на основата на кисело мляко, наситен със земното богатство на орехи и сладостта на меда, създавайки хармонична комбинация от вкусове и текстури.</p>
+                            <p><b>Основни съставки:</b> кисело мляко, орехи, мед, захар, желатин (за консистенция), ванилов екстракт.</p>
+                        </div>
+                        <div class="nutri-stat">
+                            <picture><img src="./src/img/stats.png"></img></picture>
+                        </div>
+                    </div>
+                    <div class="desserts-container-content">
+                        <div class="desserts-container-image">
+                            <img src="./src/img/crispy-sunflower-seed-with-cream.png" alt="Хрупкави слънчогледови семки">
+                        </div>
+                        <div class="desserts-text">
+                            <h2>Хрупкави слънчогледови семки</h2>
+                            <p>Иновативен десерт с хрупкави слънчогледови семки, комбинирани с кремообразна основа, предлагаща възхитителен контраст на текстури и фин вкус на ядки</p>
+                            <p><b>Основни съставки:</b> кисело мляко, орехи, мед, захар, желатин (за консистенция), ванилов екстракт.</p>
+                        </div>
+                        <div class="nutri-stat">
+                            <picture><img src="./src/img/stats.png"></img></picture>
+                        </div>
+                    </div>
+                    <div class="desserts-footer">
+                        <div class="desserts-footer-text">
+                            <p>Ако имате интерес към нашите вкусове можете да се свържете с нас , за да уточним цени, методи на достава и условия за съхранение.</p>
+                        </div>
+                        <div class="desserts-footer-button"><button>Направи заяка</button></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="customer-review">
+                <h2>Отзиви от клиенти</h2>
+            </section>
+
+
+
+
+
+            
+            <section class="contact" id="contacts">
+                <div class="contact-container">
+                    <div class="contact-container-info">
+                        <h1>Запитвания и заявки</h1>
+                        <p>За да направите поръчка или запитване за нашите десерти, моля свържете се с нас на:</p>
+                    </div>
+                    <div class="contact-container-side">
+                        <div class="contact-container-side-1">
+                        <p><strong>Имейл:</strong><br>info@krystallino.com</p>
+                        <p><strong>Адрес:</strong><br>123 Вкусната улица, Девин, България</p>
+                        <p><strong>Телефон:</strong><br>+359 (899) 456-7890</p></div>
+                            
+                        
+                        <div class="form-container">
+                            <form>
+                                <label for="name">Вашите имена</label>
+                                <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                                
+                                <label for="phone">Телефон за връзка</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Placeholder" required>
+                                
+                                <label for="email">Имейл за контакти</label>
+                                <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                                
+                                <label for="message">Вашият въпрос или заявка</label>
+                                <textarea id="message" name="message" placeholder="Placeholder" required></textarea>
+                                
+                                <button type="submit">Направи заявка</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+            <section class="media">
+                <h2>В медиите</h2>
+                <article>
+                    <h3>Kristallino: Пре-дефиниране на иновациите в десерта</h3>
+                    <p>Известно списание, 2024</p>
+                    <button>Прочети статията</button>
+                </article>
+                <article>
+                    <h3>Kristallino: A Sweet Success Story</h3>
+                    <p>Известно списание, 2024</p>
+                    <button>Прочети статията</button>
+                </article>
+            </section> 
+        </body>
+    <footer>
+        <div class="logo">
+            <picture>
+                <img src="./src/img/logo.png">
+                <img src="./src/img/logo2.png">
+            </picture>
+        
+        <p>Email: info@kristallino.com | Phone: +359 899 456 7890</p>
+
+        <nav class="foot-text">
+            <ul>
+                <li><a href="#">Нашите десерти</a></li>
+                <li><a href="#">Отзиви</a></li>
+                <li><a href="#">За поръчки и запитвания</a></li>
+                <li><a href="#">Препоръки</a></li>
+                <li><a href="#">Медиите за нас</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        
+        <div class="footer-bottom-text">
+            <p>Правила и услоловия</p>
+            <p>Правила и услоловия</p>
+            <p>Правила и услоловия</p>
+            <p>Правила и услоловия</p>
+        </div>
+    </div>
+    </footer>
+    <script type="module" src="/src/js/main.js"></script>
 </html>
+
+
