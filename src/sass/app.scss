@@ -382,10 +382,26 @@ button:hover {
     background-color: #8b4513;
 }
 
+.media-text{
+    width: 40%;
+    margin: 0 auto;
+}
+.media-head{
+    font-family: Noto Serif;
+    font-size: 50px;
+    text-align: center;
+    
+}
 
+.media-text h3{
+    font-family: Noto Serif;
+    font-size: 50px;
+    
+    
+}
 
 footer {
-    background-color: #fff;
+    background-color: #f9f4eb;
     text-align: center;
     padding: 20px 0;
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
