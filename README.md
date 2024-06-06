@@ -1,7 +1,7 @@
 ### Including
 
 -   Server: [Vite](https://vitejs.dev/)
--   Style: [Sass](https://sass-lang.com/)
+-   Style: [Css])
 
 ---
 
